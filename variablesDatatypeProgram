@@ -1,0 +1,33 @@
+package FirstDay_Variable;
+
+public class S_Program {
+
+	public static double test(int a,int b) {
+      double c=a+b;
+	  return c;
+	}
+	public static String str(String a,String b) {
+		//String S="";
+	   String	m=a+b;
+		return m;
+	}
+	public static void test1(String string,String string2) {
+		 boolean b1 = true;
+	     boolean b2 = false;
+
+	      System.out.println("b1 && b2: " + (b1&&b2));
+	      System.out.println("b1 || b2: " + (b1||b2));
+	      System.out.println("!(b1 && b2): " + !(b1&&b2));
+	}
+	public static void main(String[] args) {
+		int c=0;
+	    double x= test(12,15);
+		System.out.println(x);
+		
+		System.out.println(test(12,15));
+		System.out.println(str("Jeevan ","p"));
+		
+		test1("J","v");
+	}
+
+}
